@@ -28,7 +28,7 @@ Build your image and run it using Docker:
 pack build node-function --path . --buildpack paketo-buildpacks/nodejs --builder paketobuildpacks/builder:base
 ```
 
-If using Jammy;
+If using Jammy:
 
 ```
 pack build node-function --path . --buildpack paketo-buildpacks/nodejs --builder paketobuildpacks/builder-jammy-buildpackless-base:latest
